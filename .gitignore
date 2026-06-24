@@ -1,0 +1,21 @@
+# 자격증명 - 절대 커밋 금지
+.env
+
+# 가상환경
+.venv/
+
+# 파이썬 캐시
+__pycache__/
+*.py[cod]
+
+# 출력물
+transfers_detail.csv
+transfers_yearly.csv
+
+# 외부 핸드오프 데이터 (커밋 제외) — 대괄호는 glob 특수문자라 이스케이프
+CRSP_순수기준/
+FW \[Data핸드오프\] NYSE↔NASDAQ 이전상장 — CRSP EXCHCD 교차검증용 패키지(union 380 + 추출·비교 스크립트)/
+
+# 제3자 클론(별도 git 저장소) 및 로컬 설정
+wharton-wrds/
+.claude/
